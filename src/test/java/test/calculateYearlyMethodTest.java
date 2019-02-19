@@ -78,9 +78,9 @@ public class calculateYearlyMethodTest {
         assertTrue(0.07 == Bank.calculateYearlyInterest(acc));
     }
     
-    @Test
+    /*@Test
     public void All() {
-        /*
+        
         assertAll("Memes", 
         () -> assertEquals(0.03, Bank.calculateYearlyInterest(New Account(50)), 0),
         () -> assertEquals(0.05, Bank.calculateYearlyInterest(New Account(150)), 0),
@@ -91,6 +91,13 @@ public class calculateYearlyMethodTest {
         () -> assertNotSame(0.05, Bank.calculateYearlyInterest(New Account(540))),
         () -> assertTrue(0.07 == Bank.calculateYearlyInterest(New Account(88888888)))
         );
-        */
+    }*/
+    
+    /*
+    @Test
+    public void lambda() {
+        Runnable r = () -> System.out.println("Hello World!");
+        AssertEquals(System.out.println("Hello World!"), r.run());
     }
+    */
 }
